@@ -3,6 +3,6 @@
 
  [ ] Enable settings
  [ ] Enable help
- [ ] Enable About 
+ [x] Enable About 
  [ ] Check valid youtube URL
  [ ] Show download error

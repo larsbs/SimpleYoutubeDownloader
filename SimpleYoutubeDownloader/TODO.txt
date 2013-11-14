@@ -1,0 +1,8 @@
+﻿Simple Youtube Downloader TODO:
+===============================
+
+ [ ] Enable settings
+ [ ] Enable help
+ [ ] Enable About 
+ [ ] Check valid youtube URL
+ [ ] Show download error

@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleYoutubeDownloader", "SimpleYoutubeDownloader\SimpleYoutubeDownloader.csproj", "{9DD22ACF-D7C2-43A6-91FD-7767A2E386F0}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SimpleYoutubeDownloaderSetup-x86", "SimpleYoutubeDownloaderSetup-x86\SimpleYoutubeDownloaderSetup-x86.vdproj", "{D10D050D-E36E-4124-BEF3-6C6E1C835FAE}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SimpleYoutubeDownloaderSetup-x64", "SimpleYoutubeDownloaderSetup-x64\SimpleYoutubeDownloaderSetup-x64.vdproj", "{72D0D2AA-63C5-4561-AE21-D21170A4DAF0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9DD22ACF-D7C2-43A6-91FD-7767A2E386F0}.Debug|x64.ActiveCfg = Debug|x64
+		{9DD22ACF-D7C2-43A6-91FD-7767A2E386F0}.Debug|x64.Build.0 = Debug|x64
+		{9DD22ACF-D7C2-43A6-91FD-7767A2E386F0}.Debug|x86.ActiveCfg = Debug|x86
+		{9DD22ACF-D7C2-43A6-91FD-7767A2E386F0}.Debug|x86.Build.0 = Debug|x86
+		{9DD22ACF-D7C2-43A6-91FD-7767A2E386F0}.Release|x64.ActiveCfg = Release|x64
+		{9DD22ACF-D7C2-43A6-91FD-7767A2E386F0}.Release|x64.Build.0 = Release|x64
+		{9DD22ACF-D7C2-43A6-91FD-7767A2E386F0}.Release|x86.ActiveCfg = Release|x86
+		{9DD22ACF-D7C2-43A6-91FD-7767A2E386F0}.Release|x86.Build.0 = Release|x86
+		{D10D050D-E36E-4124-BEF3-6C6E1C835FAE}.Debug|x64.ActiveCfg = Debug
+		{D10D050D-E36E-4124-BEF3-6C6E1C835FAE}.Debug|x86.ActiveCfg = Debug
+		{D10D050D-E36E-4124-BEF3-6C6E1C835FAE}.Release|x64.ActiveCfg = Release
+		{D10D050D-E36E-4124-BEF3-6C6E1C835FAE}.Release|x86.ActiveCfg = Release
+		{72D0D2AA-63C5-4561-AE21-D21170A4DAF0}.Debug|x64.ActiveCfg = Debug
+		{72D0D2AA-63C5-4561-AE21-D21170A4DAF0}.Debug|x86.ActiveCfg = Debug
+		{72D0D2AA-63C5-4561-AE21-D21170A4DAF0}.Release|x64.ActiveCfg = Release
+		{72D0D2AA-63C5-4561-AE21-D21170A4DAF0}.Release|x86.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

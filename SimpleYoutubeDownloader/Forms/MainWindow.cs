@@ -99,5 +99,11 @@ namespace SimpleYoutubeDownloader
                 Properties.Settings.Default.Save();
             }
         }
+
+        private void menuItem4_Click(object sender, EventArgs e)
+        {
+            AboutDialog ad = new AboutDialog();
+            ad.ShowDialog();
+        }
     }
 }

@@ -34,7 +34,6 @@
             this.menuItem1 = new System.Windows.Forms.MenuItem();
             this.menuItem5 = new System.Windows.Forms.MenuItem();
             this.menuItem2 = new System.Windows.Forms.MenuItem();
-            this.menuItem3 = new System.Windows.Forms.MenuItem();
             this.menuItem4 = new System.Windows.Forms.MenuItem();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -74,19 +73,14 @@
             // 
             this.menuItem2.Index = 1;
             this.menuItem2.MenuItems.AddRange(new System.Windows.Forms.MenuItem[] {
-            this.menuItem3,
             this.menuItem4});
             this.menuItem2.Text = "About";
             // 
-            // menuItem3
-            // 
-            this.menuItem3.Index = 0;
-            this.menuItem3.Text = "Help";
-            // 
             // menuItem4
             // 
-            this.menuItem4.Index = 1;
-            this.menuItem4.Text = "About Youtube Downloader";
+            this.menuItem4.Index = 0;
+            this.menuItem4.Text = "About Simple Youtube Downloader";
+            this.menuItem4.Click += new System.EventHandler(this.menuItem4_Click);
             // 
             // pictureBox1
             // 
@@ -260,7 +254,6 @@
         private System.Windows.Forms.MainMenu mainWindowMenu;
         private System.Windows.Forms.MenuItem menuItem1;
         private System.Windows.Forms.MenuItem menuItem2;
-        private System.Windows.Forms.MenuItem menuItem3;
         private System.Windows.Forms.MenuItem menuItem4;
         private System.Windows.Forms.MenuItem menuItem5;
         private System.Windows.Forms.PictureBox pictureBox1;
